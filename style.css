@@ -33,7 +33,7 @@ h3 {
 .content4 {
   background-image: url(https://images.pexels.com/photos/6119145/pexels-photo-6119145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   grid-column: 4/6;
   grid-row: 1/3;
 }
