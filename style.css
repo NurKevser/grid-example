@@ -1,156 +1,155 @@
-#container{
-    display:grid;
-    grid-template-columns: repeat(7,1fr); /*repeat(kaç tane,fraktion değeri)*/
-    grid-template-rows: repeat(6,200px); /* fraction */
-    grid-gap: 10px;
+#container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /*repeat(kaç tane,fraktion değeri)*/
+  grid-template-rows: repeat(6, 200px); /* fraction */
+  grid-gap: 10px;
 }
-.content{
-    border-radius: 2px;
-    box-shadow: 2px 2px 2px lightgrey;
+.content {
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px lightgrey;
 }
-.content1{
-    background-color: #ddd;
-    display: flex;
-    justify-content: center;
+.content1 {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
 }
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
-.content2{
-    background-image: url(https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    grid-column: 2/4;
-    grid-row: 1/3;
+.content2 {
+  background-image: url(https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-column: 2/4;
+  grid-row: 1/3;
 }
-.content3{
-    justify-content: center;
-    grid-column: 3/4;
-    grid-row: 2/3;
-    background-color:azure;
-    opacity:0.7;
+.content3 {
+  justify-content: center;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: azure;
+  opacity: 0.7;
 }
-.content4{
-    background-image: url(https://images.pexels.com/photos/6119145/pexels-photo-6119145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    grid-column: 4/6;
-    grid-row: 1/3;
+.content4 {
+  background-image: url(https://images.pexels.com/photos/6119145/pexels-photo-6119145.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  grid-column: 4/6;
+  grid-row: 1/3;
 }
-.content5{
-    grid-column: 5/6;
-    grid-row: 2/3;
-    background-color: antiquewhite;
-    opacity: 0.5;
-    font-size: larger;
-    font:700;
+.content5 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  font-size: larger;
+  font: 700;
 }
-.content6{
-    background-image: url(http://gourmetwithblakely.com/wp-content/uploads/2020/03/DSF7412-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    grid-column: 6/8;
-    grid-row: 1/3;
+.content6 {
+  background-image: url(http://gourmetwithblakely.com/wp-content/uploads/2020/03/DSF7412-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 6/8;
+  grid-row: 1/3;
 }
-.content7{
-    grid-column: 7/8;
-    grid-row: 2/3;
-    background-color: antiquewhite;
-    opacity: 0.5;
-    font-size: large;
-    font: 700;
+.content7 {
+  grid-column: 7/8;
+  grid-row: 2/3;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  font-size: large;
+  font: 700;
 }
-.content8{
-    background-image: url(https://images.pexels.com/photos/913135/pexels-photo-913135.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column: 2/3;
-    grid-row: 3/5;
+.content8 {
+  background-image: url(https://images.pexels.com/photos/913135/pexels-photo-913135.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2/3;
+  grid-row: 3/5;
 }
-.content9{
-    grid-column: 2/3;
-    grid-row: 4/5;
-    background-color: rgb(247, 243, 238);
-    opacity: 0.5;
-    font-size: large;
-    font: 900;
-    
+.content9 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background-color: rgb(247, 243, 238);
+  opacity: 0.7;
+  font-size: large;
+  font: 900;
 }
-.content18{
-    background-image: url(https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column: 3/4;
-    grid-row: 3/5;
+.content18 {
+  background-image: url(https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 3/4;
+  grid-row: 3/5;
 }
-.content19{
-    grid-column: 3/4;
-    grid-row: 4/5;
-    background-color: antiquewhite;
-    opacity: 0.5;
-    font-size: large;
-    font: bold;
+.content19 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  font-size: large;
+  font: bold;
 }
-.content10{
-    background-image: url(https://images.pexels.com/photos/65172/pexels-photo-65172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column: 4/6;
-    grid-row: 3/5;
+.content10 {
+  background-image: url(https://images.pexels.com/photos/65172/pexels-photo-65172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 4/6;
+  grid-row: 3/5;
 }
-.content11{
-    grid-column: 5/6;
-    grid-row: 4/5;
-    background-color: antiquewhite;
-    opacity: 0.5;
-    font-size: large;
-    font: bold;
+.content11 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  font-size: large;
+  font: bold;
 }
-.content12{
-    background-image: url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column: 6/8;
-    grid-row: 3/5;
+.content12 {
+  background-image: url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 6/8;
+  grid-row: 3/5;
 }
-.content13{
-    grid-column: 7/8;
-    grid-row: 4/5;
-    background-color: antiquewhite;
-    opacity: 0.5;
-    font-size: large;
-    font: bold;
+.content13 {
+  grid-column: 7/8;
+  grid-row: 4/5;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  font-size: large;
+  font: bold;
 }
-.content14{
-    grid-column: 2/4;
+.content14 {
+  grid-column: 2/4;
 }
-.content15{
-    background-image: url(https://wallpaperaccess.com/full/138426.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-column: 4/5;
+.content15 {
+  background-image: url(https://wallpaperaccess.com/full/138426.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 4/5;
 }
-.content16{
-    background-image: url(https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
+.content16 {
+  background-image: url(https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.content17{
-    grid-column: 6/8;
+.content17 {
+  grid-column: 6/8;
 }
-.content20{
-    grid-column: 1/2;
-    grid-row: 2/6;
-    list-style: none;
-    font-size: 20px;
-    padding-top: 30px;
+.content20 {
+  grid-column: 1/2;
+  grid-row: 2/6;
+  text-align: center;
+  font-size: 20px;
+}
+.content20 ul li {
+  list-style: none;
 
-  
-
+  padding-top: 30px;
 }
-
-
-
-      
-      
-      
+.content20 ul li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+}
