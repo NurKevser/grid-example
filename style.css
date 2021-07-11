@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr); /*repeat(kaç tane,fraktion değeri)*/
   grid-template-rows: repeat(6, 200px); /* fraction */
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 .content {
   border-radius: 2px;
